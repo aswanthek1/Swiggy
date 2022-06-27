@@ -1,0 +1,478 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.login{
+    width: 100%;
+    height: 540;
+
+}
+.upper{
+    width: 60%;
+    height: 140px;
+    background-color: white;
+    display: flex;
+    
+
+}
+.hung{
+    width: 60%;
+    height: 400px;
+    background-color: white;
+    font-size: 40px;
+padding-left:18px;
+font-family: ProximaNova, arial, "Helvetica Neue", sans-serif;
+letter-spacing: -.45px;
+color: rgb(40,44,63);
+}
+.breakfast{
+    width: 40%;
+    height: 540px;
+    background-color: burlywood;
+    float: right;
+    
+
+}
+.para{
+    font-weight: 300px;
+    color: #686b78;
+}
+.logo{
+    width: 100px;
+    height: 60px;
+    padding-top: -200px;
+    margin-left: 100px;
+}
+.toplogin{
+   padding-left: 380px;
+   margin-top: 60px;
+   padding-right: 28px;
+   font-size: 16px;
+   font-family: ProximaNova, arial, "Helvetica Neue", sans-serif;
+}
+.toplogin a{
+    text-decoration: none;
+    color: black;
+}
+.toplogin a:hover{
+    color: orange;
+}
+.form a{
+    text-decoration: none;
+
+}
+.form a:hover{
+    text-decoration: underline;
+}
+
+
+
+
+
+.button1{
+   background-color: black;
+   color: white;
+   font-size: 16px;
+   font-weight: 600px;
+   font-family: ProximaNova, arial, "Helvetica Neue", sans-serif;
+    margin-top: 50px;
+  
+    }  
+    .form{
+        margin-top: 35px;
+        margin-left: 42px;
+        border: 1px solid;
+        border-width: thin;
+        background-color: white;
+       
+    } 
+    
+    .switch{
+        width: 140px;
+        height: 60px;
+        font-family: ProximaNova, arial, "Helvetica Neue", sans-serif;
+        font-size: 17px;
+        letter-spacing: 0.53px;
+        float:right;
+        font-weight: 500;
+        background-color: rgb(252, 128, 25);
+        color: white;
+        border-width: 0in;
+        
+    }
+    .delivery{
+        font-size: 17px;
+       font-family: ProximaNova, arial, "Helvetica Neue", sans-serif;
+        font-weight: 500px;
+        margin-left: 12px;
+        border-width: 0in;
+        width: 250px;
+    
+        color: rgb(40, 44, 63);
+    }
+    .india{
+        font-size: 15px;
+        font-weight: 400px;
+        margin-top: 45px;
+       
+        font-family: ProximaNova, arial, "Helvetica Neue", sans-serif;
+        letter-spacing: -0.2px;
+    }
+    
+.list{
+   
+    font-size:14px ;
+    display: inline-flex;
+    list-style: none;
+    font-weight: 300px;
+    line-height: 16.8px;
+   
+    
+}
+.list2{
+    font-size:14px ;
+    display: inline-flex;
+    list-style: none;
+    font-weight: 300px;
+    
+   
+  
+    
+}
+li{
+    padding: 5px;   
+}
+.li1{
+    padding-left: 0;
+  }  
+   .li2{
+    padding-left: 0;
+   }
+  
+.blackbox{
+    width: 100%;
+    height: 403px;
+    font-family:ProximaNova, arial, "Helvetica Neue", sans-serif;
+    background-color: rgb(39, 32, 24)
+}
+.images{
+    display: flex;
+    justify-content:space-around;
+}
+.pic1{
+    width: 260px;
+    height: 25px;
+}
+.image1{
+    width: 105px;
+    height: 199px;
+}
+.pic2{
+    width: 260px;
+    height: 25px;
+}
+.image2{
+    width: 105px;
+    height: 199px;
+}
+.pic3{
+    width: 260px;
+    height: 25px;
+}
+.image3{
+    width: 105px;
+    height: 199px;
+    margin-left: 120px;
+    margin-top: 10px;
+
+}
+.heading{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.head1{
+    width: 33%px;
+    height: 42px;
+    font-size: 19px;
+    line-height: 24px;
+    color: white;
+    font-family: ProximaNova, arial, "Helvetica Neue", sans-serif;
+    padding-top: 220px;
+    padding-right: 130px;
+    margin-right: 60px;
+    padding-left: 30px;
+    text-align: center;
+}
+.head2{
+    width: 33%px;
+    height: 42px;
+    font-size: 19px;
+    line-height: 24px;
+    color: white;
+    font-family: ProximaNova, arial, "Helvetica Neue", sans-serif;
+    padding-top: 220px;
+    padding-right: 220px;
+    margin-right: 70px;
+    text-align: center;
+}
+.head3{
+    width: 33%px;
+    text-align: center;
+    height: 42px;
+    font-size: 19px;
+    line-height: 24px;
+    color: white;
+    font-family: ProximaNova, arial, "Helvetica Neue", sans-serif;
+    padding-top: 220px;
+    margin-right: 30px;
+}
+.paragraph{
+    display: flex;
+    justify-content:space-around;
+}
+.para1{
+    width: 250px;
+    height: 39px;
+    font-family: ProximaNova, arial, "Helvetica Neue", sans-serif;
+margin-top: 30px;
+font-size: 14px;
+font-weight: 300px;
+line-height: 19.5px;
+text-align: center;
+color: rgb(224,203,193);
+
+margin-left: -9px;
+}
+.para2{
+    width: 33%;
+    height: 39px;
+    font-family: ProximaNova, arial, "Helvetica Neue", sans-serif;
+margin-top: 30px;
+font-size: 14px;
+font-weight: 300px;
+line-height: 19.5px;
+text-align: center;
+color: rgb(224,203,193);
+
+
+
+}
+.para3{
+    width: 280px;
+    height: 39px;
+    font-family: ProximaNova, arial, "Helvetica Neue", sans-serif;
+margin-top: 30px;
+font-size: 14px;
+font-weight: 300px;
+line-height: 19.5px;
+text-align: center;
+color: rgb(224,203,193);
+
+margin-left: 90px;
+}
+.main3{
+width: 100%;
+height: 570px;
+display: flex;
+justify-content: center;
+flex-direction: column;
+}
+.restrnt{
+width: 300px;
+height: 80px;
+margin-left: 54.5px;
+font-size: 40px;
+font-weight: 300px;
+line-height: 40px;
+font-family:  ProximaNova, arial, "Helvetica Neue", sans-serif;
+}
+.para4{
+    width: 400px;
+    height: 48px;
+    padding-top: 20px;
+    padding-bottom: 60px;
+    font-size: 18px;
+   
+    line-height: 24px;
+    font-family:  ProximaNova, arial, "Helvetica Neue", sans-serif;
+    margin-left: 54.5px;
+    color: rgb(126,128,140);
+}
+.button3{
+    width: 180.5px;
+    height: 54px;
+   
+    margin-left:54.5px ;
+}
+.button4{
+    width: 180.5px;
+    height: 54px;
+    
+    margin-left:254px ;
+    margin-top: -232px;
+
+}
+.phone1{
+    width: 384px;
+    height: 489px;
+    margin-right: 300px;
+    margin-left: 576px;
+  margin-top: -392px;
+ 
+
+}
+.phone2{
+    width: 384px;
+    height: 489px;
+    margin-right: 45px;
+    margin-left: 931px;
+    margin-top: -400px;
+    
+
+}
+.main4{
+    width: 100%;
+    height: 380px;
+    display: flex;
+    justify-content:space-around;
+    padding-top: 50px;
+    font-family:  ProximaNova, arial, "Helvetica Neue", sans-serif;
+    font-size: 14px;
+    background-color: rgb(39, 32, 24);
+    font-weight: 300px;
+    line-height: 22px;
+}
+.list3{
+    width: 300px;
+   
+    
+}
+.list4{
+    width: 350px;
+
+}
+.list1{
+  
+    width: 300px;
+   
+    padding-left: 40px;
+}
+.list1 ul li a{
+    list-style: none;
+    text-decoration: none;
+}
+.list3 ul li a{
+    list-style: none; 
+    text-decoration: none;
+}
+.list4 ul li a{
+    list-style: none; 
+    text-decoration: none;
+}
+.buttons{
+    width:200px ;
+    height: 150px;
+margin-top: 20px;
+display: flex;
+background-color:rgb(39, 32, 24);
+flex-direction: column;
+justify-content: space-between;
+text-decoration: none;
+
+
+}
+.buttons:hover{
+    text-decoration:wavy;
+}
+.main5{
+    width: 100%;
+    height: 700px;
+    font-size: 14px;
+    letter-spacing: normal;
+    background-color: rgb(39, 32, 24);
+    display: flex;
+    justify-content: space-around;
+    padding-top:30px;
+    
+   
+}
+.btwn{
+background-color: rgb(39, 32, 24);
+  width: 100%px;
+  height: 12px;
+    
+}
+.list7 li a{
+    color: rgb(224,203,193);
+    text-decoration: none;
+    
+}
+.list8 li a{
+    color: rgb(224,203,193);
+    text-decoration: none;
+}
+.list9 li a{
+    color: rgb(224,203,193);
+    padding-top: 30px;
+    text-decoration: none;
+}
+.list10 li a{
+    color: rgb(224,203,193);
+    padding-top: 30px;
+    text-decoration: none;
+}
+
+.ul7{
+    list-style: none;
+    font-family:ProximaNova, arial, "Helvetica Neue", sans-serif ;
+    color:rgb(128,128,128);
+    font-size: 14px;
+}
+.footer{
+    width: 100%;
+    height: 150px;
+    background-color:rgb(39, 32, 24);
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+}
+.whiteswig{
+    width: 142px;
+    height: 42px;
+    
+
+}
+.year{
+    width: 842px;
+    height: 24px;
+    font-family:ProximaNova, arial, "Helvetica Neue", sans-serif  ;
+    font-weight: 300;
+    line-height: 24px;
+    text-align: center;
+    color: rgb(224,203,193);
+   
+}
+.applogo{
+width: 216px;
+height:27.8px;
+display: flex;
+justify-content:space-around;
+}
+.fb{
+    width: 35px;
+   height: 32px;
+}
+.pintrest{
+    width: 35px;
+    height: 32px;
+}
+.insta{
+    width: 35px;
+    height: 32px;
+}
+.twitter{
+    width: 35px;
+    height: 32px;
+}
